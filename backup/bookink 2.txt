@@ -1,0 +1,86 @@
+<div class="container-fluid">
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner ">
+                <div class="carousel-item active ">
+                    <img class="d-block" src="https://www.thorntons-law.co.uk/sites/default/files/uploads/media/Banners%202021/Service%20page/BL%20-%20Business%20Sectors%20-%20Construction%20copy%202.jpg" alt="First slide">
+
+                </div>
+                <div class="card-img-overlay text-white  overlay-dark">
+                    <div class="conatiner booking">
+                        <div class="row ">
+                            <div class="col-lg-5">
+                                <div class="booking-cta">
+                                    <h1>Make your Plots Booked </h1>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi facere, soluta magnam consectetur molestias itaque
+                                        ad sint fugit architecto incidunt iste culpa perspiciatis possimus voluptates aliquid consequuntur cumque quasi.
+                                        Perspiciatis.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-lg-1"></div>
+                            <div class="col-lg-4">
+                                <div class="booking-form">
+                                    <form>
+                                        <div class="form-group">
+                                            <span class="form-label">Name</span>
+                                            <input class="form-control" type="text" placeholder="Enter a destination or hotel name">
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-sm-6">
+                                                <div class="form-group">
+                                                    <span class="form-label">Email</span>
+                                                    <input class="form-control" type="email" required="">
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <div class="form-group">
+                                                    <span class="form-label">Mobile</span>
+                                                    <input class="form-control" type="number" required="">
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <div class="form-group">
+                                                    <label for="message-text" class="col-form-label">Project</label>
+                                                    <select class="custom-select" id="project" onchange="fetchPlotNumber(this.value)">
+                                                        <option selected>Select Project</option>
+                                                        <?php if ($rows > 0) {
+                                                            while ($row = $sql->fetch_assoc()) {
+                                                                $project = $row['project_name'];
+                                                                echo '<option value=' . $row['id'] . '>' . $project . '</option>';
+                                                            }
+                                                        } ?>
+
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <div class="form-group">
+                                                    <label for="message-text" class="col-form-label">Plot Number</label>
+                                                    <select class="custom-select" id="plot">
+                                                        <option selected>Select Plot Number</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-btn">
+                                            <button class="submit-btn">Book Plots</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </div>
+
+
+
+
+
+    num div by it self 
+    let a= [1,2,3,4,5]
+    

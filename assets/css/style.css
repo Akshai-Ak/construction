@@ -1,0 +1,365 @@
+body{
+    font-family:'Times New Roman', Times, serif;
+}
+.navbar-nav a{
+    color: white;
+    font-weight: bolder;
+}
+nav{
+    margin-top: -20px;
+}
+.main-logo{
+    width: 124px;
+    height: 90px;
+    position: relative;
+    top: 6px;
+}
+.logo{
+    width: 169px;
+    height: 135px;
+}
+/* nav{
+    height: 100px;
+} */
+.navbar-toggler {
+    color: white;
+}
+.bg-nav{
+    background-color: #009E60;
+}
+.d-block{
+    width: 102%;
+    height: 100%;
+}
+.overlay-dark {
+    background-color: rgba(0,0,0,0.3);
+}
+
+.carousel-inner{
+    margin-left: -15px;
+    width: 102%;
+}
+.carousel-caption {
+    width:100%;
+    height: 100%;
+    left:0;     
+    padding: 300px;
+  }
+.dtcp{
+    font-size: 3.5rem;
+    font-weight: bolder;
+}
+/*about*/
+.about{
+    padding-top: 105px; 
+}
+.heading{
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding-bottom: 30px;
+    border-bottom: none;
+    font-family: 'Times New Roman', Times, serif;
+    padding-bottom: 20px;
+}
+.about-img{
+    width: 90%;
+    padding-left: 80px;
+}
+.about-btn,.layout-booking{
+    background-color: #009E60;
+    padding: 22px 30px 22px;
+    font-size: 16px;
+    min-width: 260px;
+    border-radius: 40px;
+    border: none;
+    font-weight: bold   ;
+}
+.about-btn:hover{
+    color: white;
+    transition: all .5s ease-out;
+    background: linear-gradient(to left, black 50%, #009E60 50%);
+    background-position: left bottom;
+}
+/*layout*/
+/* .layout{
+    width: 120%;
+} */
+.content {
+    position: relative;
+    width: 90%;
+    max-width: 400px;
+    margin: auto;
+    overflow: hidden;
+    transition: 0.3s;
+  }
+  .content-title{
+      font-family: 'Times New Roman', Times, serif;
+      cursor: pointer;
+  }
+  .content .content-overlay {
+    background: rgba(0,0,0,0.7);
+    position: absolute;
+    height: 98%;
+    width: 93%;
+    left: 13.5px;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    transition: all 0.4s ease-in-out 0s;
+  }
+  
+  .content:hover .content-overlay{
+    opacity: 1;
+  }
+  
+  .content-image{
+    width: 100%;
+  }
+  .content:hover{
+    transform: scale(1.1);
+  }
+  
+  .content-details {
+    position: absolute;
+    text-align: center;
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+    transform: translate(-50%, -50%);
+    transition: all 0.3s ease-in-out 0s;
+  }
+  
+  .content:hover .content-details{
+    top: 50%;
+    left: 50%;
+    opacity: 1;
+}
+  
+  .content-details h3{
+    color: white;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+    text-transform: uppercase;
+}
+ 
+.fadeIn-bottom{
+    top: 80%;
+}
+.detail{
+    display: flex;
+    color: white;
+}
+.detail li{
+    list-style: none;
+}
+.ph a{
+    color: white;
+    text-decoration: none;
+}
+.mail a{
+    color: white;
+    text-decoration: none;
+}
+.icon{
+    color: #009E60;
+}
+/*social icons*/
+.insta{
+    line-height: 18px;
+    border: 2px solid rgb(219, 55, 55);
+    padding: 7px;
+    border-radius: 50%;
+    width: 36px;
+    height:36px;
+    transition: all 0.5s;
+    background-color: rgb(219, 55, 55) ;
+    color: #ffffff;
+    
+  }
+  .insta:hover{
+    transform: rotate(360deg)scale(1.3);
+    background-color: #ffffff;
+    color: rgb(219, 55, 55);
+  }
+  .fb{
+    line-height: 16px;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 50%;
+    width: 36px;
+    height:36px;
+    transition: all 0.5s;
+    background-color: #3b5998;
+    border-color: #3b5998;
+    color:   #ffffff;
+  }
+  .whats{
+    line-height: 17px;
+    border: 2px solid black;
+    padding: 7px;
+    border-radius: 50%;
+    width: 36px;
+    height:36px;
+    transition: all 0.5s;
+    background-color:#128C7E;
+    border-color: #128C7E;
+    color: #ffffff;
+  }
+  .utube{
+    line-height: 22px;
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 50%;
+    width: 36px;
+    height:36px;
+    background-color: #bb0000;
+    color: #ffffff;
+    border-color: #bb0000;
+    transition: all 0.5s;
+  }
+  .fb:hover {
+    transform: rotate(360deg)scale(1.3);
+    background-color: #ffffff;
+    color: #3b5998;
+  }
+  .utube:hover{
+    transform: rotate(360deg)scale(1.3);
+    background-color: #ffffff;
+    color: #bb0000;
+  }
+  .whats:hover{
+    transform: rotate(360deg)scale(1.3);
+    background-color: #ffffff;
+    color:#128C7E;
+}
+.footer{
+    background-color: black;
+}
+.layout-detail{
+    width: 100%;
+}
+.plot-details{
+    list-style: none;
+    font-weight:bold;
+    line-height: 50px;
+}
+.kva-highlits{
+    font-weight: bolder;
+}
+.layout-gallery{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+.layout-img{
+    background-color: rgb(221, 221, 221);
+    margin-top: 45px;
+}
+.layout-img h3{
+    font-weight: bold;
+}
+.enquire img{
+    width: 100%;
+}
+.enquire-detail{
+    position: absolute;
+    padding-top: 104px;
+    left: 35%;
+    color: white;
+}
+figcaption{
+    font-weight: bold;
+}
+.login ,.signup{
+    text-transform: uppercase;
+}
+.layout-booking{
+    text-decoration: none;
+    color: black;
+} 
+.layout-booking:hover{
+    text-decoration: none;
+    color: black;
+}
+.book-plot{
+    background-color: #009E60;
+    margin-top: 10px;
+    padding: 16px 63px 15px;
+    font-size: 16px;
+    min-width: 200px;
+    border-radius: 40px;
+    border: none;
+    font-weight: bold;
+    color: black;
+} 
+.booking-form {
+    background-color: #fff;
+    padding: 50px 20px;
+    box-shadow: 0px 5px 20px -5px rgb(0 0 0 / 30%);
+    border-radius: 4px;
+    color: black;
+}
+.booking-form .submit-btn {
+    display: inline-block;
+    color: #fff;
+    background-color: #009E60;
+    font-weight: 700;
+    padding: 14px 30px;
+    border-radius: 4px;
+    border: none;
+    -webkit-transition: 0.2s all;
+    transition: 0.2s all;
+}
+.booking{
+    margin-top: 93px;
+    margin-right: -105px;
+    margin-left: 176px;
+}
+.book-layout{
+    width: 100%;
+}
+@media screen and (max-width: 992px) {
+    .main-logo{
+      position: relative;
+      top: 4px;
+      margin-top:15px;
+    }
+    .navbar-toggler {
+    position: relative;
+    top: 4px;
+    }
+    .carousel-caption {
+        width:100%;
+        height:100%;
+        left:0;
+        padding: 250px;
+    }
+    .signup{
+        margin-top: 15px;
+    }
+    .booking-form {
+        background-color: #fff;
+        padding: 50px 20px;
+        box-shadow: 0px 5px 20px -5px rgb(0 0 0 / 30%);
+        border-radius: 4px;
+        color: black;
+        margin-top: -331px;
+        position: absolute;
+        left: -171px;
+        margin-right: 122px;
+    }
+    .carousel-inner ,.active{
+        height: 669px;
+    }
+}
+    
+/* @media screen and (min-device-width: 1400px) and (max-device-width:1600px) {
+    nav{
+        height: 100px;
+    }
+} */
